@@ -67,7 +67,7 @@ html{
     @apply  
     flex p-1 
     border-solid
-  border-text-light 
+    border-text-light 
     border-2 
     text-xl
     h-10 gap-2 
@@ -77,7 +77,7 @@ html{
 .container{
     @apply
     px-40
-    py-10
+    py-40
 }
 .Contact-form
 {
@@ -94,7 +94,90 @@ html{
 {
     @apply
     w-[50%]
-    text-3xl
+    text-6xl
     font-bold
+    flex
+    flex-col
+    justify-start
 
+}
+.form-inputs
+{
+    @apply
+    flex
+    flex-wrap
+    gap-3
+    
+}
+.form-entry
+{
+    @apply
+    flex
+    flex-col
+    flex-grow
+    gap-2
+}
+.form-entry>input
+{
+    @apply
+    p-2
+    rounded-md
+}
+.form-entry>label
+{
+    @apply
+    text-xl
+}
+
+.form-message
+{
+    @apply
+    flex
+    w-[100%]
+    flex-col
+    gap-1
+}
+textarea
+{
+    @apply
+    p-2
+    rounded-md
+
+}
+.form-button
+{
+    @apply
+    bg-background-dark
+    text-text-dark
+    px-4
+    py-2
+    rounded-lg
+    text-xl
+}
+.footer
+{
+    @apply
+    flex
+    
+    justify-between
+}
+.footer-container
+{
+    @apply
+    flex
+    flex-col
+    px-40
+    py-40
+}
+.footer-container >h2
+{
+    @apply text-center
+}
+.footer-links
+{
+    @apply
+    flex
+    gap-2
+    items-center
+    text-xl
 }
