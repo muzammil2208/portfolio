@@ -27,5 +27,74 @@ html{
 {
     @apply bg-background-dark rounded-lg text-text-dark px-2 py-1;
 }
+.jumbotron
+{
+    @apply flex px-40 py-10 items-center gap-2;
+}
+.jumbotron-content
+{
+    @apply flex flex-col text-2xl items-center justify-center p-40;
+}
+.jumbotron-heading
+{
+    @apply text-[5rem] font-bold;
+}
+.jumbotron-paragraph
+{
+    @apply text-2xl;
+}
+.about
+{
+    @apply flex gap-2 px-40 py-10 justify-center;
+}
+.about-container
+{
+    @apply flex flex-col content-start w-[70%] pr-10 gap-2;
+}
+.about-container>h1{
+    @apply text-3xl font-bold ;
+}
+.about-container>p
+{
+    @apply text-2xl;
+}
+.about-skills-container
+{
+    @apply flex gap-2 flex-wrap content-start w-[30%];
+}
+.skill
+{
+    @apply  
+    flex p-1 
+    border-solid
+  border-text-light 
+    border-2 
+    text-xl
+    h-10 gap-2 
+    will-change-auto 
+    justify-center;
+}
+.container{
+    @apply
+    px-40
+    py-10
+}
+.Contact-form
+{
+    @apply
+    flex
+    p-5
+    items-center
+    border-solid
+    border-2
+    border-text-light
+    rounded-md
+}
+.form-title
+{
+    @apply
+    w-[50%]
+    text-3xl
+    font-bold
 
-
+}

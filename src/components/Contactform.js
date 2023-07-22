@@ -1,7 +1,8 @@
-export default function Contactfomr()
+export default function Contactform()
 {
     return(
-        <form>
+        <div className="container">
+            <form className="Contact-form">
             <div className="form-title">Want to get in touch?</div>
             <div className="form-inputs">
                 <label>Name</label>
@@ -9,8 +10,10 @@ export default function Contactfomr()
                 <label>Email</label>
                 <input type='email'/>
                 <label>message</label>
-                <textarea rows='4' cols="5"/>
+                <textarea rows='10' cols="8"/>
             </div>
         </form>
+        </div>
+        
     )
 }
